@@ -1,5 +1,5 @@
 FROM naganjaneyulu437/ubuntu
-     apt-get update
-     apt-get install -y apache2
+     apt get update
+     apt get install -y apache2
 RUN mkdir Anji
 RUN HELLO ANJI
