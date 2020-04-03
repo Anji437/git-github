@@ -1,11 +1,5 @@
 # Docker
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Free Trial(1afc7b09-bca8-42c3-9f4a-da583bdf0cc4)'
-    appType: 'webAppLinux'
-    WebAppName: 
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
